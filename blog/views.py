@@ -1,6 +1,6 @@
 from django.db.models import query
 from django.views.generic import ListView, DetailView
-from core.models import Post
+from blog.models import Post
 
 
 class PostList(ListView):
